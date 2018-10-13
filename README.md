@@ -7,3 +7,6 @@
 # Python
  1. Basic python : [link](https://www.tutorialspoint.com/python/)
  2. Scripts used in class : [link](https://github.com/pcon-jsr/Open-Source-Workshop/tree/master/python_scripts)
+ 
+ # Git
+ 1. In depth tutorial of git and github : [link](https://classroom.udacity.com/courses/ud775-india)
