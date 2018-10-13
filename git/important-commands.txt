@@ -1,0 +1,41 @@
+1. Initialize a git repo -
+
+	git init <repo-name>
+
+2. Commit -
+
+	git status - shows the modified/newly created files since last commit
+
+	git diff - shows all the changes made in the modified/new files since last commit
+
+	git log - shows all the past commits
+
+	git diff <Commit-ID-1> <Commit-ID-2> - shows the changes made in files comparing both commits
+
+	git add <file_name> - adds the file to staging area
+
+	git diff --cached - shows the modifications made in files added to staging area
+
+	git commit -m "<message>" - makes a commit to the files added in staging area with the specified message
+
+	git stash - discards all the changes made since last commit
+
+3. Branches -
+
+	git branch - lists out every branch
+
+	git checkout -b "<branch-name>" - creates and switches to a new branch forked from current branch with the specified name
+
+	git checkout <branch-name> - switch to another branch
+
+	git merge <branch-name> - merges the specified branch into current branch(may result in a conflict)
+
+4. Sharing on GitHub -
+
+	git clone <URL> - clones the repo whose url is specified
+
+	git remote add origin <URL> - creates a remote location for your repo on github
+
+	git push - pushes your current branch on local repository to remote
+
+	git pull - pull the most recent code from remote to your local repo
